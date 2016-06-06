@@ -1,4 +1,5 @@
-# Getting-and-cleaning-data-Assignment
+Getting-and-cleaning-data-Assignment
+====================================
 
 Objective
 ---------
@@ -15,7 +16,7 @@ Personal wearable technologies are leading to an explosion of available data tha
 Data Processing Steps
 ---------------------  
 1. In the R script, run_analysis.R downloaded the zip file containing the data from the website: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into the ~\JHU_Data_Science\Course_3\Data\assignmnetData.zip file. 
-2. Next, I manually right clicked on the file and chose extract all to extract the data files.
+2. Manually extracted the files, by right clicking on the file and choosing extract all to extract the data files.
 
 
 
