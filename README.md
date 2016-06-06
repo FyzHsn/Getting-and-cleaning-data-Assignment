@@ -13,8 +13,8 @@ Motivation
 ----------
 Personal wearable technologies are leading to an explosion of available data that companies such as fitbit, Nike, Jawbone etc. are racing to utilize and get the edge in competition. We focus on data derived from an acceleromter from a Samsung Galaxy S smartphone corresponding to activities such as walking, walking upstairs, walking downstairs, sitting, standing and laying. More information about the data set is available at the website: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Data Processing Steps
----------------------  
+Raw Data Collection
+-------------------  
 1. In the R script, run_analysis.R downloaded the zip file containing the data from the website: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into the ~\JHU_Data_Science\Course_3\Data\assignmnetData.zip file. 
 2. Manually extracted the files, by right clicking on the file and choosing extract all to extract the data files.
 
