@@ -2,11 +2,11 @@
 
 Objective
 ---------
-This assignment is about collecting, working with and cleaning a data set. There are four files that are required to document the processing of raw data:
-  1) README.md - general info about the assignment
-  2) CodeBook.md - a detailed and clear document describing the variables (& units) and actions required to process the data
-  3) run_analysis.R - a R script that downloads the data and creates the final tidy data set
-  4) tidy.txt - the final tidy data set.
+This assignment is about collecting, working with and cleaning a data set. There are four files that are required to document the processing of raw data:  
+  1) README.md - general info about the assignment  
+  2) CodeBook.md - a detailed and clear document describing the variables (& units) and actions required to process the data  
+  3) run_analysis.R - a R script that downloads the data and creates the final tidy data set  
+  4) tidy.txt - the final tidy data set.  
 
 Motivation
 ----------
