@@ -31,8 +31,6 @@ UCI HAR Dataset/
 * features_info.txt  
 * README.txt  
                    
-
-
-
 Study Design
-------------
+------------  
+1. 
