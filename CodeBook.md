@@ -33,4 +33,7 @@ UCI HAR Dataset/
                    
 Study Design
 ------------  
-1. 
+1. Download data into ~\JHU_Data_Science\Course_3\Data\assingmentData.zip.
+2. Unzip data file manually.
+3. Load files x_test, y_test, subject_test, x_train, y_train, subject_train, features into workspace.
+4. Check which variables in the x_train and x_test data are the mean and standard deviations. 
