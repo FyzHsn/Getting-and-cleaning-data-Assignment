@@ -19,16 +19,17 @@ UCI HAR Dataset/
 * test 
     * Inertial Signals  
     * subject_test.txt  
-    +-- y_test.txt  
-                           - x_test.txt  
-                  - train - Inertial Signals  
-                          - subject_train.txt  
-                          - y_train.txt  
-                          - x_train.txt  
-                  - activity_labels.txt  
-                  - features.txt  
-                  - features_info.txt  
-                  - README.txt  
+    * y_test.txt  
+    * x_test.txt  
+* train 
+    * Inertial Signals  
+    * subject_train.txt  
+    * y_train.txt  
+    * x_train.txt  
+* activity_labels.txt  
+* features.txt  
+* features_info.txt  
+* README.txt  
                    
 
 
