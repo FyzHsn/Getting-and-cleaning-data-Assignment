@@ -15,18 +15,20 @@ Components of the Raw Data
 --------------------------
 The raw data is stored in the ~/JHU_Data_Science/Course_3/Data/assignmentData folder. This folder contains another folder called "UCI HAR Dataset" which contains two folders named "test" and "train". The structure of these folders are identical. They both contain another folder called "Inertial Signals" which we ignore since it is not required by this assignment. The main acceleration data is contained in the "subject_train.txt" file. The "y_train.txt" data gives information about the corresponding activity being done by the person. A README file in a previous folder explains that the activities are donoted by the following numbers: WALKING - 1, WALKING_UPSTAIRS - 2, WALKING_DOWNSTAIRS - 3, SITTING - 4, STANDING - 5 and LAYING - 6. Furthermore, "subject_train.txt" file tells us which person (numbered 1 - 30) the data in the other two files correspond to.   
 
-- UCI HAR Dataset - test - Inertial Signals  
-                             - subject_test.txt  
-                             - y_test.txt  
-                             - x_test.txt  
-                    - train - Inertial Signals  
-                              - subject_train.txt  
-                              - y_train.txt  
-                              - x_train.txt  
-                    - activity_labels.txt  
-                    - features.txt  
-                    - features_info.txt  
-                    - README.txt  
+UCI HAR Dataset/ 
++-- test 
+    +-- Inertial Signals  
+    +-- subject_test.txt  
+    +-- y_test.txt  
+                           - x_test.txt  
+                  - train - Inertial Signals  
+                          - subject_train.txt  
+                          - y_train.txt  
+                          - x_train.txt  
+                  - activity_labels.txt  
+                  - features.txt  
+                  - features_info.txt  
+                  - README.txt  
                    
 
 
