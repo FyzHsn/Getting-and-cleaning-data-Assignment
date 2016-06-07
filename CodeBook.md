@@ -38,4 +38,12 @@ Study Design
 1. Download data into ~\JHU_Data_Science\Course_3\Data\assingmentData.zip.
 2. Unzip data file manually.
 3. Load files x_test, y_test, subject_test, x_train, y_train, subject_train, features into workspace.
-4. Check which variables in the x_train and x_test data are the mean and standard deviations. 
+4. Check which variables in the x_train and x_test data are the mean and standard deviations (std) by looking at the features.txt file and extracting corresponding column numbers. 
+5. Resize x_test and y_test data by eliminating all non-mean and std related columns.
+6. Change y_train/test column values (1, 2, ..., 6) to descriptive values of (walking, walking upstairs, ..., laying).
+7. Rename y_train/test columns to activityID.
+8. Rename subject_train/test columns to personID.
+9. Merge subject_test, y_test and x_test data by column binding.
+10. Merge subject_train, y_train and x_train data by column binding. 
+11. Merge resulting merged data sets by row binding. This results in a data frame of test and train data with activity and person ID and relavant mean and std information of acceleration and angular velocity.
+12. 
