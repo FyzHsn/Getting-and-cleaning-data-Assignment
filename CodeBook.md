@@ -9,6 +9,8 @@ Using the accelerometer, the x, y and z-axis linear acceleration, along with 3-a
 
 The resulting data set was partitioned randomly into two sets: test (30% of the volunteers) and train (70% of the volunteers).
 
+Lastly, the acceleration and angular velocity magnitudes are normalized and hence the data range is [-1, 1].
+
 Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Components of the Raw Data
