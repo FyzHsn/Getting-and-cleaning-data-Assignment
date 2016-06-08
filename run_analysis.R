@@ -111,4 +111,6 @@ for(ii in seq_along(person_lev)) {
         row_counter <- row_counter + 1 
     } 
 }
+names(final_result)[3:col_num] <- paste("mean of", names(final_result)[3:col_num])
+
 
