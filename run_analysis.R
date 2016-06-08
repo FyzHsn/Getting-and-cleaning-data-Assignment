@@ -83,4 +83,32 @@ dim(merged_train)
 ## Merge or bind rows of test and train data
 merged_data <- rbind(merged_train, merged_test) 
 
-## Factor merged data by personID and take the mean for each activity name
+## Another, more basic solution
+## Create empty data frame
+person_lev <- levels(factor(merged_data$personID))
+activity_lev <- levels(factor(merged_data$activityID))
+row_num <- length(person_lev) * length(activity_lev)
+col_num <- ncol(merged_data)
+
+final_result <- as.data.frame(matrix(NA, row_num, col_num))
+names(final_result) <- names(merged_data)
+head(final_result[, 1:10])
+
+## Order merged_data according to person and activity ID
+merged_data <- merged_data[order(merged_data$personID, merged_data$activityID),]
+head(merged_data[, 1:10])
+
+row_counter <- 1
+
+person <- split(merged_data, merged_data$personID)
+for(ii in seq_along(person_lev)) {
+    temp <- person[[person_lev[ii]]][, 2:col_num]
+    temp <- split(temp, temp$activityID)
+    for(jj in seq_along(activity_lev)) {
+        temp2 <- temp[[activity_lev[jj]]][, 2:(col_num - 1)]
+        final_result[row_counter, 3:col_num] <- as.data.frame(lapply(temp2, mean)) 
+        final_result[row_counter, 1:2] <- c(person_lev[ii], activity_lev[jj]) 
+        row_counter <- row_counter + 1 
+    } 
+}
+
