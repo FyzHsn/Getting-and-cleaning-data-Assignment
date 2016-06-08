@@ -46,4 +46,8 @@ Study Design
 9. Merge subject_test, y_test and x_test data by column binding.
 10. Merge subject_train, y_train and x_train data by column binding. 
 11. Merge resulting merged data sets by row binding. This results in a data frame of test and train data with activity and person ID and relavant mean and std information of acceleration and angular velocity.
-12. 
+12. Clean up variable names by removing spaces, dashes and brackets.
+13. Split merged data  according to personID.
+14. Loop over personID values and split resulting data over activityID for each personID.
+15. Compute the mean of all the data corresponding to a particular person and activity ID and store it in a data frame.
+16. Write the data frame into a final text file.
